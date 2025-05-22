@@ -1,3 +1,9 @@
+[project]
+name = "django-boilerplate"
+version = "0.1.0"
+description = "A basic Django boilerplate project"
+requires-python = ">=3.8"
+
 [tool.black]
 line-length = 88
 target-version = ['py38', 'py39', 'py310']
@@ -12,3 +18,10 @@ extend-exclude = '''
 |   env
 )/
 '''
+
+[tool.pytest.ini_options]
+python_files = "tests.py test_*.py *_tests.py"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+pytest-django = "^4.8.0"
