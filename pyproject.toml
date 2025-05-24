@@ -34,6 +34,7 @@ dependencies = [
     "jmespath>=1.0.1",
     "jsonschema>=4.23.0",
     "jsonschema-specifications>=2023.12.1",
+    "kombu>=5.5.3",
     "mypy-extensions>=1.1.0",
     "packaging>=25.0",
     "pathspec>=0.12.1",
@@ -84,4 +85,6 @@ pytest-django = "^4.8.0"
 [dependency-groups]
 dev = [
     "black>=24.8.0",
+    "pytest>=8.3.5",
+    "pytest-django>=4.11.1",
 ]
