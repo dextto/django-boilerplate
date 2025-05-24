@@ -10,3 +10,5 @@ src/logs
 db.sqlite3
 
 django_boilerplate.egg-info/
+
+.DS_Store
